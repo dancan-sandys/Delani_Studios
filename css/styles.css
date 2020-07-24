@@ -109,3 +109,15 @@ footer{
     text-align: center;
     margin-top: 2%;
 }
+
+#design{
+    display: none;
+}
+
+#development{
+    display: none;
+}
+
+#product{
+    display: none;
+}
