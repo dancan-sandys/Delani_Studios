@@ -48,3 +48,26 @@ body{
     line-height: 42px;
     background-image: url(../assets/backgrounds/s_image.jpg);
 }
+
+#pagethree{
+    width: 100%;
+    text-align: center;
+}
+#portfolio{
+    width: 100%;
+}
+.row{
+    margin-bottom: 3%;
+    width: 100%;
+    justify-content: center;
+}
+.col-3{
+    padding: 0;
+    position: relative;
+    left: 3%;
+}
+.col-3 img{
+    margin-right: 0;
+    width: 80%;
+    
+}
