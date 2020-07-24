@@ -5,3 +5,28 @@
 body{
     height: 100%;
 }
+
+#pageone{
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    height: 669px; 
+} 
+
+#mouseclick{
+    position: relative;
+    top: 45%;
+} 
+
+#pageonecontent{
+    color: white;
+    position: relative;
+    top:28%;
+}
+
+#pageonecontent h1{
+    font-size: 36px;
+    margin: 3% 0%;
+    width: 100%;
+}
