@@ -99,3 +99,13 @@ textarea{
 .form{
     justify-content: center ;
 }
+
+
+#pagefour h2{
+    padding-top: 4%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 2%;
+}
