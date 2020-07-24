@@ -30,3 +30,21 @@ body{
     margin: 3% 0%;
     width: 100%;
 }
+
+#pagetwo{
+    text-align: center;
+    
+}
+
+#aboutus{
+    margin: 6%;
+    line-height: 42px;
+}
+
+#services{
+    color: white;
+    padding: 7% 15%;
+    width: 100%;
+    line-height: 42px;
+    background-image: url(../assets/backgrounds/s_image.jpg);
+}
