@@ -1,9 +1,11 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 body{
     height: 100%;
+    overflow-x: hidden;
 }
 
 #pageone{
@@ -52,9 +54,14 @@ body{
 #pagethree{
     width: 100%;
     text-align: center;
+    align-items: center;
 }
 #portfolio{
-    width: 100%;
+    width: 85%;
+    margin: 12%;
+}
+#portfolio h2{
+    padding-bottom: 5%;
 }
 .row{
     margin-bottom: 3%;
@@ -120,4 +127,46 @@ footer{
 
 #product{
     display: none;
+}
+.whitesquare{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    opacity: 0.5;
+    
+
+}
+#work1{
+    
+    width: 50%;
+    background-image: url(../assets/portfolio/work1.jpg);
+    background-size: cover;
+}
+
+#work2{
+    background-image: url(../assets/portfolio/work2.jpg);
+}
+
+#work3{
+    background-image: url(../assets/portfolio/work3.jpg);
+}
+
+#work4{
+    background-image: url(../assets/portfolio/work4.jpg);
+}
+
+#work5{
+    background-image: url(../assets/portfolio/work5.jpg);
+}
+
+#work6{
+    background-image: url(../assets/portfolio/work6.jpg);
+}
+
+#work7{
+    background-image: url(../assets/portfolio/work7.jpg);
+}
+
+#work8{
+    background-image: url(../assets/portfolio/work8.jpg);
 }
