@@ -12,3 +12,5 @@ $(`.product`).click(function(){
     $(`.product img`).toggle();
     $(`#product`).toggle();
 })
+
+
