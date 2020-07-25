@@ -1,6 +1,8 @@
 var whitesquares = [`whitesquare1`, `whitesquare2`, `whitesquare3`, `whitesquare4`, `whitesquare5`, `whitesquare6`, `whitesquare7`, `whitesquare8`,]
 var whatwedoes =[`design`, `development`, `product`]
 
+
+
 function formsubmit() {
     var name = document.getElementById(`name`).value;
     var email = document.getElementById(`email`).value;
@@ -30,7 +32,7 @@ function formsubmit() {
 
 
 
-        alert(`Thank you for your feedback, we will be intouch soon.`)
+        alert(`Thank you ${name}, we have received your feedback and we will be in touch soon.`)
     }
 
 }
