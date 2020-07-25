@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
+    font-family: 'Permanent Marker', cursive;
     margin: 0;
     padding: 0;
 }
@@ -24,7 +29,20 @@ body{
 #mouseclick{
     position: relative;
     top: 45%;
+    animation: bounce 2s infinite;
 } 
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+}
 
 #pageonecontent{
     color: white;
@@ -46,6 +64,11 @@ body{
 #aboutus{
     margin: 6%;
     line-height: 42px;
+    
+}
+
+#aboutus p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 #services{
@@ -54,6 +77,10 @@ body{
     width: 100%;
     line-height: 42px;
     background-image: url(../assets/backgrounds/s_image.jpg);
+}
+
+#services p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 #pagethree{
@@ -71,7 +98,7 @@ body{
     margin: 10%;
 }
 #portfolio h2{
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 .row{
     margin-bottom: 3%;
@@ -83,6 +110,7 @@ body{
     padding: 0;
     margin: 0;
     position: relative;
+    height: 200px;
     
 }
 
@@ -93,21 +121,24 @@ body{
 }
 
 input{
-    
+    color: white;   
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.5;
     border: 1px solid white;
     border-radius: 5px;
-    width: 90%;
+    width: 85%;
     margin-top: 5%;
+    margin-left: 5%;
 }
 
 textarea{
+    color: white;
     border-radius: 5px;
-    background-color: black;
-    opacity: 0.7;
     border: 1px solid white;
     width: 55%;
+    background-color: black;
+    opacity: 0.5;
+    margin-bottom: 5%;
 }
 
 .form{
@@ -137,13 +168,28 @@ footer{
 }
 .whitesquare{
     width: 100%;
-    height: 160px;
-    background-color: white;
+    height: 200px;
+    background-color: black;
+    color: white;
     opacity: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 29px;
+    border: 2px solid black;
 }
 
+.whitesquare p{
+    border: 4px solid white;
+    width: 80%;
+    margin: 10% 10%;
+    height: 150px;
+    padding :12% 5%;
+
+    
+}
+
+
 .whitesquare:hover{
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 #servicesoverlay{
@@ -191,4 +237,10 @@ footer{
 
 .col-2{
     background-size: cover;
+}
+
+.whatwedo{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5%;
+    text-align: center;
 }
