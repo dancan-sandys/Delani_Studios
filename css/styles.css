@@ -139,6 +139,8 @@ textarea{
     background-color: black;
     opacity: 0.5;
     margin-bottom: 5%;
+    position: relative;
+    left: 3%;
 }
 
 .form{
@@ -243,4 +245,12 @@ footer{
     font-family: 'Montserrat', sans-serif;
     padding: 5%;
     text-align: center;
+}
+
+button{
+    border-radius: 15px;
+    width: 8%;
+    position: relative;
+    right: 29%;
+    bottom: 25px;
 }
