@@ -255,3 +255,10 @@ button{
     right: 29%;
     bottom: 25px;
 }
+
+@media screen and (max-width:500px){
+    .col-2{
+        display: flex;
+        flex-direction: column;
+    }
+}

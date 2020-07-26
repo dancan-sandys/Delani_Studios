@@ -32,7 +32,7 @@ function formsubmit() {
 
 
 
-        alert(`Thank you ${name}, we have received your feedback and we will be in touch soon.`)
+        alert(` ${name}, we have received your message, thank you for reaching out.`)
     }
 
 }
