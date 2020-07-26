@@ -1,5 +1,5 @@
 var whitesquares = [`whitesquare1`, `whitesquare2`, `whitesquare3`, `whitesquare4`, `whitesquare5`, `whitesquare6`, `whitesquare7`, `whitesquare8`,]
-var whatwedoes =[`design`, `development`, `product`]
+var whatwedoes = [`design`, `development`, `product`]
 
 
 
@@ -38,11 +38,11 @@ function formsubmit() {
 }
 
 
-whatwedoes.forEach(function(whatwedo){
-$(`.${whatwedo}`).click(function () {
-    $(`.${whatwedo} img`).slideToggle();
-    $(`#${whatwedo}`).slideToggle();
-})
+whatwedoes.forEach(function (whatwedo) {
+    $(`.${whatwedo}`).click(function () {
+        $(`.${whatwedo} img`).slideToggle();
+        $(`#${whatwedo}`).slideToggle();
+    })
 })
 
 
