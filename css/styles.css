@@ -99,7 +99,7 @@ body{
 }
 #portfolio{
     position: relative;
-    top: 50%;
+    top: 400px;
     width: 80%;
     margin: 10%;
 }
@@ -111,7 +111,7 @@ body{
     width: 100%;
     justify-content: space-between;
 }
-.col-2{
+.col-md-2{
     justify-content: space-around;
     padding: 0;
     margin: 0;
@@ -121,6 +121,7 @@ body{
 }
 
 #pagefour{
+    margin-top: 100%;
     text-align: center;
     color: white;
     background-image: url(../assets/backgrounds/c_image.jpg);
@@ -141,7 +142,7 @@ textarea{
     color: white;
     border-radius: 5px;
     border: 1px solid white;
-    width: 55%;
+    width: 80%;
     background-color: black;
     opacity: 0.5;
     margin-bottom: 5%;
@@ -238,7 +239,7 @@ footer{
     background-image: url(../assets/portfolio/work8.jpg);
 }
 
-.col-2{
+.col-md-2{
     background-size: cover;
 }
 
@@ -250,15 +251,38 @@ footer{
 
 button{
     border-radius: 15px;
-    width: 8%;
+    width: 15%;
     position: relative;
-    right: 29%;
+    top: 5px;
+    margin-bottom: 5%;
+    right: 45%;
     bottom: 25px;
 }
 
-@media screen and (max-width:500px){
-    .col-2{
-        display: flex;
-        flex-direction: column;
+
+@media screen and (min-width:500px){
+    #portfolio{
+        position: relative;
+        top: 50%;
+        width: 80%;
+        margin: 10%;
+    }
+    #portfolio h2{
+        padding-bottom: 1%;
+    }
+    #pagefour{
+        margin-top: 0%;
+    }
+
+    button{
+        width: 8%;
+        position: relative;
+        top: 0px;
+        right: 29%;
+        margin-bottom: 0;
+    
+    }
+    textarea{
+        width: 55%;
     }
 }
